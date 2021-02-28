@@ -1,0 +1,17 @@
+.vendors__main{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.vendors__search{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.vendors__table{
+    height: 60vh;
+    overflow-y: auto;
+}

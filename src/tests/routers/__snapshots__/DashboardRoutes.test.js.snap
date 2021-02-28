@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashboardRoutes /> Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <Navbar />
+  <div>
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/vendors"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/vendors/AddModels"
+      />
+      <Route
+        component={[Function]}
+        path="/"
+      />
+    </Switch>
+  </div>
+</Fragment>
+`;

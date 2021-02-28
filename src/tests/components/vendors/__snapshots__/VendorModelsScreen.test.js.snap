@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <VendorsModelsScreen /> Debe mostrarse correctamente 1`] = `
+<div
+  className="models__main"
+>
+  <h1>
+    Models Administrator
+  </h1>
+  <Button
+    active={false}
+    className="vendors__button__back"
+    disabled={false}
+    onClick={[Function]}
+    variant="warning"
+  >
+    Back to Search
+  </Button>
+  <div
+    className="models__div__form"
+  >
+    <form
+      className="models__form"
+    >
+      <input
+        autoComplete="off"
+        className="form-control models__input"
+        name="vendor"
+        onChange={[Function]}
+        placeholder="Vendor"
+        type="text"
+        value=""
+      />
+      <input
+        autoComplete="off"
+        className="form-control models__input"
+        name="name"
+        onChange={[Function]}
+        placeholder="Name"
+        type="text"
+        value=""
+      />
+      <input
+        autoComplete="off"
+        className="form-control models__input"
+        name="soft"
+        onChange={[Function]}
+        placeholder="Soft"
+        type="text"
+        value=""
+      />
+      <div
+        className="models__div__button"
+      >
+        <Button
+          active={false}
+          className="models__button "
+          disabled={false}
+          onClick={[Function]}
+          variant="primary"
+        >
+          Save
+        </Button>
+        <Button
+          active={false}
+          className="models__button"
+          disabled={false}
+          onClick={[Function]}
+          variant="secondary"
+        >
+          Clear
+        </Button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+.models__main{
+    padding: 20px;
+    flex-direction: column;   
+}
+
+.models__div__form {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.models__form{
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.models__input{
+    margin-top: 5px;
+}
+
+.models__div__button{
+    display: flex;
+    justify-content: center;
+}
+
+.models__button{
+    margin: 10px;
+    width: 30%;
+}

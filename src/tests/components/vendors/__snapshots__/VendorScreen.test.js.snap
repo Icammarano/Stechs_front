@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <VendorScreen /> Debe mostrarse correctamente 1`] = `
+<div
+  className="container mt-1 vendors__main"
+>
+  <h1>
+    Vendors Search
+  </h1>
+  <div
+    className="row"
+  >
+    <div
+      className="vendors__search"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <input
+            autoComplete="off"
+            className="form-control vendors__input"
+            name="vendor"
+            onChange={[Function]}
+            placeholder="Search vendor"
+            type="text"
+            value=""
+          />
+          <Button
+            active={false}
+            disabled={false}
+            type="submit"
+            variant="primary"
+          >
+            Search
+          </Button>
+          <Button
+            active={false}
+            disabled={false}
+            onClick={[Function]}
+            variant="secondary"
+          >
+            Add New Model
+          </Button>
+           
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="vendors__table"
+    >
+      <ModelsTable
+        data={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
